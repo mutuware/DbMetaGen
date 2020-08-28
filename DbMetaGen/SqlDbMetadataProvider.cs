@@ -4,11 +4,11 @@ using System.Data.SqlClient;
 
 namespace DbMetaGen
 {
-    public class SqlDbMetadata : IDbMetadata
+    public class SqlDbMetadataProvider : IDbMetadataProvider
     {
         private readonly string _connectionString;
 
-        public SqlDbMetadata(string connectionString)
+        public SqlDbMetadataProvider(string connectionString)
         {
             _connectionString = connectionString;
         }

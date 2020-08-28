@@ -1,6 +1,6 @@
 ﻿namespace DbMetaGen
 {
-    public interface IDbMetadata
+    public interface IDbMetadataProvider
     {
         public DbMetadata Get();
     }
