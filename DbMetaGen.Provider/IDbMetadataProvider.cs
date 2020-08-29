@@ -1,4 +1,6 @@
-﻿namespace DbMetaGen
+﻿using DbMetaGen.Models;
+
+namespace DbMetaGen.Provider
 {
     public interface IDbMetadataProvider
     {

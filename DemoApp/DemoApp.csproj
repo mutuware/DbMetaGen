@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<!-- Pass extra file to analyzers -->
+		<AdditionalFiles Include="DbMetadata.json" />
+		<AdditionalFiles Include="DbMetadata.csv" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DbMetaGen.Generator\DbMetaGen.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+
+</Project>

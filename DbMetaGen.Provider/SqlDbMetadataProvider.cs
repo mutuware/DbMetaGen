@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using DbMetaGen.Models;
+using Microsoft.Data.SqlClient;
 
-namespace DbMetaGen
+namespace DbMetaGen.Provider
 {
     public class SqlDbMetadataProvider : IDbMetadataProvider
     {
