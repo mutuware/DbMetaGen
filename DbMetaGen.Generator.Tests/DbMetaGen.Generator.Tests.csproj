@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DbMetaGen.Generator\DbMetaGen.Generator.csproj" />
+    <ProjectReference Include="..\DbMetaGen.Models\DbMetaGen.Models.csproj" />
   </ItemGroup>
 
 </Project>

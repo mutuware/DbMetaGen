@@ -7,7 +7,7 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Db.Table3);
+            Console.WriteLine(Db.Table1);
         }
     }
 }

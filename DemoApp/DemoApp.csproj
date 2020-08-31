@@ -10,7 +10,6 @@
 	<ItemGroup>
 		<!-- Pass extra file to analyzers -->
 		<AdditionalFiles Include="DbMetadata.json" />
-		<AdditionalFiles Include="DbMetadata.csv" />
 	</ItemGroup>
 
 	<ItemGroup>
