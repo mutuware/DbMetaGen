@@ -7,7 +7,7 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Db.Table1);
+            Console.WriteLine(Db.Countries);
         }
     }
 }

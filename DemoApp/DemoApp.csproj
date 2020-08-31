@@ -6,10 +6,19 @@
 		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="appsettings.json" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<!-- Pass extra file to analyzers -->
 		<AdditionalFiles Include="DbMetadata.json" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Content Include="appsettings.json" />
 	</ItemGroup>
 
 	<ItemGroup>
